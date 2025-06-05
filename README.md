@@ -30,7 +30,9 @@ This project implements a high-performance, multithreaded word frequency counter
 
 ```bash
 g++ -O3 -std=c++17 -pthread word_counter.cpp -o word_counter
+```
 
 ### 2. Run
 ```bash
 ./word_counter <your_large_text_file.txt>
+```
